@@ -22,6 +22,7 @@ jobs:
           SEMGREP_RULES: >- # more at semgrep.dev/r
             p/security-audit
             p/secrets
+            p/golang
       # Option 2: scan with rules set in Semgrep App's rule board
       # - run: semgrep scan --sarif --output=semgrep.sarif --config=policy
       #   env:
