@@ -41,33 +41,9 @@ $ make install
 ```
 $ cd client-go
 $ gomod
-Press `ESC` to quit.  Press the [s|f|m|g] key to sort
-Modules: 227 total, 227 success, 0 failed.  Display range 1 ~ 41
-
-STAR   FORK   SHARE  MODULE                                  GITHUB
----------------------------------------------------------------------------------------------------------------
-62505  18014         github.com/docker/docker                https://github.com/docker/docker
-41680  6954          github.com/prometheus/prometheus        https://github.com/prometheus/prometheus
-25800  2256          github.com/spf13/cobra                  https://github.com/spf13/cobra
-21394  6117          helm.sh/helm/v3                         https://github.com/helm/helm
-20173  2116          github.com/sirupsen/logrus              https://github.com/sirupsen/logrus
-18686  1627          github.com/spf13/viper                  https://github.com/spf13/viper
-16691  2809          github.com/gorilla/websocket            https://github.com/gorilla/websocket
-16241  1498          github.com/gorilla/mux                  https://github.com/gorilla/mux
-15812  1221          github.com/stretchr/testify             https://github.com/stretchr/testify
-15586  3492          google.golang.org/grpc                  https://github.com/grpc/grpc-go
-15278  1126          go.uber.org/zap                         https://github.com/uber-go/zap
-11813  2626          github.com/antlr/antlr4/runtime/Go/antlrhttps://github.com/antlr/antlr4
-11256  1268          github.com/golang/groupcache            https://github.com/golang/groupcache
-10623  863           github.com/json-iterator/go             https://github.com/json-iterator/go
-8322   1517          github.com/golang/protobuf              https://github.com/golang/protobuf
-8200   1714   Y      sigs.k8s.io/kustomize/api               https://github.com/kubernetes-sigs/kustomize
-8200   1714   Y      sigs.k8s.io/kustomize/kyaml             https://github.com/kubernetes-sigs/kustomize
-7646   622           github.com/pkg/errors                   https://github.com/pkg/errors
-6703   740           github.com/fsnotify/fsnotify            https://github.com/fsnotify/fsnotify
-6629   2077          github.com/docker/distribution          https://github.com/docker/distribution
-6429   858           github.com/lucas-clemente/quic-go       https://github.com/lucas-clemente/quic-go
 ```
+
+[![asciicast](https://asciinema.org/a/KG2utenPw4pXk12TcEprPDaRh.svg)](https://asciinema.org/a/KG2utenPw4pXk12TcEprPDaRh)
 
 输出字段：
 
