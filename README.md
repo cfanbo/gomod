@@ -43,7 +43,7 @@ $ cd client-go
 $ gomod
 ```
 
-[![asciicast](https://asciinema.org/a/KG2utenPw4pXk12TcEprPDaRh.svg)](https://asciinema.org/a/KG2utenPw4pXk12TcEprPDaRh)
+[![asciicast](https://asciinema.org/a/MNbs7MgmmzadUmGcnmI4l8tpG.svg)](https://asciinema.org/a/MNbs7MgmmzadUmGcnmI4l8tpG)
 
 输出字段：
 
