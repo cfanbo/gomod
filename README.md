@@ -42,8 +42,7 @@ $ make install
 $ cd client-go
 $ gomod
 ```
-
-[![asciicast](https://asciinema.org/a/MNbs7MgmmzadUmGcnmI4l8tpG.svg)](https://asciinema.org/a/MNbs7MgmmzadUmGcnmI4l8tpG)
+[![asciicast](https://asciinema.org/a/1VdJC1fPt9Tw2xkrovpcoONOH.svg)](https://asciinema.org/a/1VdJC1fPt9Tw2xkrovpcoONOH)
 
 输出字段：
 
