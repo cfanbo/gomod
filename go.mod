@@ -8,7 +8,7 @@ require (
 	github.com/rs/zerolog v1.28.0
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/stretchr/testify v1.8.0
-	golang.org/x/mod v0.5.1
+	golang.org/x/mod v0.6.0
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 )
 
@@ -23,6 +23,5 @@ require (
 	golang.org/x/sys v0.0.0-20220318055525-2edf467146b5 // indirect
 	golang.org/x/term v0.0.0-20201210144234-2321bbc49cbf // indirect
 	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
