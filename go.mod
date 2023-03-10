@@ -8,7 +8,7 @@ require (
 	github.com/rs/zerolog v1.29.0
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/stretchr/testify v1.8.1
-	golang.org/x/mod v0.8.0
+	golang.org/x/mod v0.9.0
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
 )
 
