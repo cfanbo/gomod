@@ -28,7 +28,7 @@ func ParseStar(str string) (int, error) {
 
 // ParseFork return count of fork
 func ParseFork(str string) (int, error) {
-	exp := regexp.MustCompile(`<span id="repo-network-counter" data-pjax-replace="true" title="[\d]+(,?)?[\d]*" data-view-component="true" class="Counter">`)
+	exp := regexp.MustCompile(`<span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="[\d]+(,?)?[\d]*" data-view-component="true" class="Counter">`)
 	result := exp.FindString(str)
 	if result == "" {
 		return -1, fmt.Errorf("parse Fork Error")
@@ -47,7 +47,7 @@ func parseNumValue(result string) (int, error) {
 	return strconv.Atoi(result)
 }
 
-//ParseRepoURL return repo's'url on github
+// ParseRepoURL return repo's'url on github
 func ParseRepoURL(str string) string {
 	exp := regexp.MustCompile(`\n(\s*)<a href="(http|https)://[a-zA-Z0-9]+(.)[com|org]{1,}/[a-zA-Z0-9]+(.*)" title="(http|https)://[a-zA-Z0-9]+(.)[com|org]{1,}/[a-zA-Z0-9]+(.*)" target="_blank" rel="noopener">\n(\s*)github.com/([a-zA-Z0-9])(.+)+\n(\s*)</a>`)
 	out := exp.FindString(str)
