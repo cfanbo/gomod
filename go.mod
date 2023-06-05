@@ -7,7 +7,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.14
 	github.com/rs/zerolog v1.29.1
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	golang.org/x/mod v0.10.0
 	golang.org/x/sync v0.1.0
 )
