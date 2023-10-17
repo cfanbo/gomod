@@ -42,11 +42,11 @@ func Test_parseFork(t *testing.T) {
 		want    int
 		wantErr bool
 	}{
-		{"0", args{`<span id="repo-network-counter" data-pjax-replace="true" title="0" data-view-component="true" class="Counter">0</span>`}, 0, false},
-		{"<10", args{`<span id="repo-network-counter" data-pjax-replace="true" title="1" data-view-component="true" class="Counter">0</span>`}, 1, false},
-		{"<1K", args{`<span id="repo-network-counter" data-pjax-replace="true" title="123" data-view-component="true" class="Counter">0</span>`}, 123, false},
-		{">=1K", args{`<span id="repo-network-counter" data-pjax-replace="true" title="1,234" data-view-component="true" class="Counter">0</span>`}, 1234, false},
-		{"golang/go", args{`<span id="repo-network-counter" data-pjax-replace="true" title="14,478" data-view-component="true" class="Counter">14.5k</span>`}, 14478, false},
+		{"0", args{`<span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="0" data-view-component="true" class="Counter">0</span>`}, 0, false},
+		{"<10", args{`<span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="1" data-view-component="true" class="Counter">0</span>`}, 1, false},
+		{"<1K", args{`<span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="123" data-view-component="true" class="Counter">0</span>`}, 123, false},
+		{">=1K", args{`<span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="1,234" data-view-component="true" class="Counter">0</span>`}, 1234, false},
+		{"golang/go", args{`<span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="14,478" data-view-component="true" class="Counter">15.9k</span>`}, 14478, false},
 		// TODO: Add test cases.
 	}
 	for _, tt := range tests {

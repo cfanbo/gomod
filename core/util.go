@@ -28,7 +28,7 @@ func ParseStar(str string) (int, error) {
 
 // ParseFork return count of fork
 func ParseFork(str string) (int, error) {
-	exp := regexp.MustCompile(`<span id="repo-network-counter" data-pjax-replace="true" title="[\d]+(,?)?[\d]*" data-view-component="true" class="Counter">`)
+	exp := regexp.MustCompile(`<span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="[\d]+(,?)?[\d]*" data-view-component="true" class="Counter">`)
 	result := exp.FindString(str)
 	if result == "" {
 		return -1, fmt.Errorf("parse Fork Error")
