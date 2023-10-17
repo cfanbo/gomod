@@ -2,13 +2,14 @@ package core
 
 import (
 	"fmt"
-	"github.com/cfanbo/gomod/pkg"
 	"os"
 	"strings"
 	"sync"
 
 	"github.com/gdamore/tcell/v2"
 	"github.com/gdamore/tcell/v2/encoding"
+
+	"github.com/cfanbo/gomod/pkg"
 )
 
 var onceRender sync.Once

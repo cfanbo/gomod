@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"github.com/cfanbo/gomod/core/log"
+
 	"golang.org/x/sync/singleflight"
 )
 

@@ -2,9 +2,10 @@ package core
 
 import (
 	"fmt"
+	"strings"
+
 	"github.com/gdamore/tcell/v2"
 	"github.com/mattn/go-runewidth"
-	"strings"
 )
 
 func emitStr(s tcell.Screen, x, y int, style tcell.Style, str string) {

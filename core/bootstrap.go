@@ -3,10 +3,11 @@ package core
 import (
 	"errors"
 	"fmt"
-	"github.com/cfanbo/gomod/core/log"
-	"golang.org/x/mod/modfile"
 	"os"
 	"sync"
+
+	"github.com/cfanbo/gomod/core/log"
+	"golang.org/x/mod/modfile"
 )
 
 func Enter(modFile string) {
