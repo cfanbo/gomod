@@ -37,7 +37,7 @@ build:
 
 install:
 	@echo "==> $@"
-	@go install
+	@CGO_ENABLED=0 GO111MODULE=${GO111MODULE} $(GO) install -tags "$(BUILDTAGS)" ${GO_LDFLAGS}
 
 test:
 	go test ./...
