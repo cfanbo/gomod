@@ -20,9 +20,9 @@ ifneq ($(GITUNTRACKEDCHANGES),)
 	BUILDMETA := dirty
 endif
 
-CREATORVAR=-X ${PKG}/util.GitCommit=$(GITCOMMIT) \
-	-X ${PKG}/util.Version=$(VERSION) \
-	-X ${PKG}/util.BuildMeta=$(BUILDMETA) \
+CREATORVAR=-X ${PKG}/core.GitCommit=$(GITCOMMIT) \
+	-X ${PKG}/core.Version=$(VERSION) \
+	-X ${PKG}/core.BuildMeta=$(BUILDMETA) \
 
 GO ?= "go"
 GO_LDFLAGS=-ldflags "-s -w $(CREATORVAR)"
