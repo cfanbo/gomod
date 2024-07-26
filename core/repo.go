@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cfanbo/gomod/core/log"
-
 	"golang.org/x/sync/singleflight"
+
+	"github.com/cfanbo/gomod/core/log"
 )
 
 var (

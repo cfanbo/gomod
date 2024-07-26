@@ -6,8 +6,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/cfanbo/gomod/core/log"
 	"golang.org/x/mod/modfile"
+
+	"github.com/cfanbo/gomod/core/log"
 )
 
 func Enter(modFile string) {

@@ -2,13 +2,14 @@ package core
 
 import (
 	"fmt"
-	"github.com/cfanbo/gomod/pkg"
-	"github.com/skratchdot/open-golang/open"
 	"regexp"
 	"strconv"
 	"strings"
 
+	"github.com/skratchdot/open-golang/open"
+
 	"github.com/cfanbo/gomod/core/log"
+	"github.com/cfanbo/gomod/pkg"
 )
 
 const (
