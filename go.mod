@@ -1,16 +1,16 @@
 module github.com/cfanbo/gomod
 
 go 1.22.0
-toolchain go1.23.5
+toolchain go1.24.1
 
 require (
 	github.com/gdamore/tcell/v2 v2.8.1
 	github.com/mattn/go-runewidth v0.0.16
-	github.com/rs/zerolog v1.33.0
+	github.com/rs/zerolog v1.34.0
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/stretchr/testify v1.10.0
-	golang.org/x/sync v0.12.0
 	golang.org/x/mod v0.24.0
+	golang.org/x/sync v0.12.0
 )
 
 require (
