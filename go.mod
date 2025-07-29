@@ -11,7 +11,7 @@ require (
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/mod v0.26.0
-	golang.org/x/sync v0.12.0
+	golang.org/x/sync v0.16.0
 )
 
 require (
