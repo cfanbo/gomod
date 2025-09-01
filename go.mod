@@ -1,6 +1,6 @@
 module github.com/cfanbo/gomod
 
-go 1.23
+go 1.23.0
 
 require (
 	github.com/gdamore/tcell/v2 v2.9.0
