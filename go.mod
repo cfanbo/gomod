@@ -2,8 +2,6 @@ module github.com/cfanbo/gomod
 
 go 1.23
 
-toolchain go1.24.1
-
 require (
 	github.com/gdamore/tcell/v2 v2.9.0
 	github.com/mattn/go-runewidth v0.0.16
