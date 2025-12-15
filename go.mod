@@ -3,7 +3,7 @@ module github.com/cfanbo/gomod
 go 1.24.0
 
 require (
-	github.com/gdamore/tcell/v2 v2.13.2
+	github.com/gdamore/tcell/v2 v2.13.4
 	github.com/mattn/go-runewidth v0.0.19
 	github.com/rs/zerolog v1.34.0
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
